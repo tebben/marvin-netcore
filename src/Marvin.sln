@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{029CEEDC-49E4-4D64-8DCF-1EF90A5BE141}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{88C7AF4E-E881-498F-AAD8-9AD170615CA1}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Marvin.Core", "Marvin.Core\Marvin.Core.xproj", "{B1914504-6004-4E47-99BB-72F4779C2302}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Marvin.Server", "Marvin.Server\Marvin.Server.xproj", "{52D56E63-5973-4C25-BD29-E4DAA99F0933}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{353EDEA4-D887-43BF-84BD-A97DD8443779}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Marvin.Logger", "Marvin.Modules\Marvin.Logger\Marvin.Logger.xproj", "{B2E63BCE-2937-48DF-9F3D-8E4409CA19C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1914504-6004-4E47-99BB-72F4779C2302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1914504-6004-4E47-99BB-72F4779C2302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1914504-6004-4E47-99BB-72F4779C2302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1914504-6004-4E47-99BB-72F4779C2302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D56E63-5973-4C25-BD29-E4DAA99F0933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D56E63-5973-4C25-BD29-E4DAA99F0933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D56E63-5973-4C25-BD29-E4DAA99F0933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D56E63-5973-4C25-BD29-E4DAA99F0933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E63BCE-2937-48DF-9F3D-8E4409CA19C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E63BCE-2937-48DF-9F3D-8E4409CA19C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E63BCE-2937-48DF-9F3D-8E4409CA19C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E63BCE-2937-48DF-9F3D-8E4409CA19C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1914504-6004-4E47-99BB-72F4779C2302} = {029CEEDC-49E4-4D64-8DCF-1EF90A5BE141}
+		{52D56E63-5973-4C25-BD29-E4DAA99F0933} = {029CEEDC-49E4-4D64-8DCF-1EF90A5BE141}
+		{353EDEA4-D887-43BF-84BD-A97DD8443779} = {029CEEDC-49E4-4D64-8DCF-1EF90A5BE141}
+		{B2E63BCE-2937-48DF-9F3D-8E4409CA19C9} = {353EDEA4-D887-43BF-84BD-A97DD8443779}
+	EndGlobalSection
+EndGlobal
